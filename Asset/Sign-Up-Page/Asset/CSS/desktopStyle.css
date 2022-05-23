@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    /* margin: 70px;
+    align-items: center; */
+    justify-content: center;
+}
+
+/*----------------- Part 1 --------------------*/
+.part1 {
+    /* width: 50vw; */
+    /* height: 500px; */
+    padding-top: 80px;
+}
+
+.part1 .caption h3 {
+    margin-bottom: 30px;
+}
+.part1 .caption h1 {
+    margin-bottom: 30px;
+}
+
+.part1 .input .name,.part1 .input .e-mail, .part1 .input .password {
+    margin-bottom: 20px;
+}
+
+.part1 .input .name h3,.part1 .input .e-mail h3, .part1 .input .password h3 {
+    padding-bottom: 10px;
+}
+
+.part1 .input #name,.part1 .input #mail, .part1 .input #password {
+    border-radius: 3px;
+    /* box-sizing: border-box;
+    border-color: red; */
+    border: 1px solid gray;
+    padding: 12px 160px 10px 13px;
+    font-size: 13px;
+}
+
+.part1 .input .password .hide img {
+    margin-left: -36px;
+    margin-bottom: -7px;
+}
+
+.part1 .input .agreement {
+    display: flex;
+    /* padding-bottom: 10px; */
+}
+
+.part1 .input .agreement #agree {
+    margin-bottom: 18px;
+}
+
+.part1 .input .agreement .caption2 {
+    padding-left: 10px;
+}
+
+.part1 .input .agreement .caption2 p {
+    font-size: 14.7px;
+}
+
+.part1 .input .agreement .caption2 h3 {
+    font-size: 17px;
+}
+
+.part1 .input .agreement .caption2 h3 a {
+    color: #4D13D1;
+}
+
+.part1 .create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 26px;
+    margin-top: -10px;
+}
+
+.part1 .create #account {
+    background-color: #4D13D1;
+    border-radius: 3px;
+    /* box-sizing: border-box;
+    border-color: red; */
+    border: none;
+    padding: 14px 86px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    /* align-items: center; */
+}
+
+.part1 .create .caption3 {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.part1 .create .caption3 p a {
+    text-decoration: none;
+    color: #4D13D1;
+    padding-left: 5px;
+}
+
+
+
+/*----------------- Part 1 End ----------------*/
+
+
+/*----------------- Part 2 --------------------*/
+.part2 {
+    background-color: #4D13D1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 100vh;
+    margin-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.part2 .image {
+    width: 30vw;
+    height: 313px;
+    padding-bottom: 20px;
+}
+
+.part2 .image img {
+    width: 100%;
+    height: inherit;
+}
+
+.part2 .caption4 {
+    padding-bottom: 73px;
+    width: 372px;
+}
+
+.part2 .caption4 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 39px;
+}
+
+.part2 .caption4 p {
+    line-height: 1.5;
+    color: white;
+}
+
+/*----------------- Part 2 End ----------------*/
+
+/*----------------- Media Query ---------------*/
+@media screen and (max-width: 1080px) {
+    .part1 {
+        padding-top: 20px;
+    }
+
+    .part2 {
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .part2 {
+        display: none;
+    }
+}
+
+
+
+
+/*----------------- Media Query End -----------*/

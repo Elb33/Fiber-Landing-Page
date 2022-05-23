@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*---------------------- HEADER -------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 60px 60px;
+    background-color: beige;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 260px;
+}
+
+header .navigation a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header .navigation h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* header .sign-up {
+    display: flex;
+    justify-content: space-between;
+} */
+
+header .sign-up a {
+    margin-right: 40px;
+}
+
+header .sign-up #sign-in {
+    background-color: beige;
+    border: none;
+    padding: 20px 28px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+    /* margin-right: 10px; */
+}
+
+header .sign-up #sign-up {
+    background-color: #4D13D1;
+    border: none;
+    padding: 20px 28px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    /* margin-right: 40px; */
+}
+
+/*---------------------- HEADER END ---------------------*/
+
+/*---------------------- HERO SECTION -------------------*/
+
+.hero {
+    display: flex;
+    background-color: beige;
+    height: 630px;
+}
+
+.hero .caption {
+    width: 50vw;
+}
+
+.hero .caption .rating {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    /* justify-content: space-between; */
+}
+
+.hero .caption .rating img {
+    padding-left: 10px;
+}
+
+.hero .caption .rating h1 {
+    padding-left: 10px;
+}
+
+.hero .caption .portfolio {
+    margin-left: 60px;
+}
+
+.hero .caption .portfolio h1 {
+    font-size: 60px;
+    width: 40vw;
+}
+
+.hero .caption .portfolio p {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 41vw;
+    color: grey;
+}
+
+.hero .caption .trial-example {
+    display: flex;
+    margin: 21px 60px;
+    /* padding-right: 10px; */
+    /* justify-content: space-between; */
+}
+
+.hero .caption .trial-example a {
+    padding-right: 30px;
+}
+
+.hero .caption .trial-example button{
+    background-color: #4D13D1;
+    border: none;
+    padding: 24px 31px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.hero .caption .trial-example h1 {
+    margin: 20px 10px 30px 10px;
+    font-size: 20px;
+}
+
+.hero .caption .trial-example h1 a{
+    text-decoration: none;
+    /* width: 20px; */
+    color: #4D13D1;
+    border-bottom: 2px solid #4D13D1;
+    padding-right: 5px;
+}
+
+.hero .caption .credit-templates {
+    display: flex;
+    margin: 25px 60px;
+    /* justify-content: space-between; */
+}
+
+.hero .caption .credit-templates img {
+    padding-right: 10px;
+    width: 15px;
+}
+
+.hero .caption .credit-templates h1 {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.hero .image1 {
+    width: 530px;
+    height: 492px;
+    margin-top: -46px;
+    margin-left: 120px;
+}
+
+.hero .image1 img {
+    width: 100%;
+    height: inherit;
+}
+
+/*---------------------- HERO SECTION END ------------------------*/
+
+/*---------------------- GOOD PORTFOLIO --------------------------*/
+.main {
+    margin: 60px;
+}
+
+.main .employ {
+    width: 369px;
+}
+
+.main .employ h4 {
+    font-size: 20px;
+    color: #4D13D1;
+    padding-bottom: 15px;
+}
+
+.main .employ h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.main .build {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+}
+
+.main .build .build-minutes h3, .main .build .custom-css h3, .main .build .responsive h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main .build .build-minutes p, .main .build .custom-css p, .main .build .responsive p {
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    width: 260px;
+}
+
+.main .diversify {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4D13D1;
+    border-radius: 6px;
+}
+
+.main .diversify .caption2 {
+    width: 31vw;
+    padding: 113px 40px 40px 108px;
+}
+
+.main .diversify .caption2 h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.main .diversify .caption2 p {
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.main .diversify .image2 {
+    width: 40vw;
+    height: 400px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.main .diversify .image2 img {
+    width: 100%;
+    height: inherit;
+}
+
+.main .clients {
+    display: flex;
+    padding-top: 60px;
+}
+
+.main .clients .sarah {
+    border: 1px solid gray;
+    width: 277px;
+    margin-right: 70px;
+    padding: 27px 50px 25px 25px;
+    border-radius: 5px;
+}
+
+.main .clients .mathew {
+    border: 1px solid gray;
+    width: 277px;
+    margin-right: 70px;
+    padding: 27px 50px 25px 25px;
+    border-radius: 5px;
+}
+
+.main .clients .janice {
+    border: 1px solid gray;
+    width: 277px;
+    /* margin-right: 60px; */
+    padding: 27px 50px 25px 25px;
+    border-radius: 5px;
+}
+
+.main .clients .sarah .top1, .main .clients .mathew .top2, .main .clients .janice .top3 {
+    display: flex;
+    /* padding-bottom: 20px; */
+    /* width: 30px; */
+}
+
+.main .clients .sarah .top1 .revenue1, .main .clients .mathew .top2 .revenue2, .main .clients .janice .top3 .revenue3 {
+    margin-left: 15px;
+    line-height: 1.5;
+}
+
+.main .clients .sarah .top1 .revenue1 h1, .main .clients .mathew .top2 .revenue2 h1, .main .clients .janice .top3 .revenue3 h1 {
+    font-size: 18px;
+    color: #4D13D1;
+    font-weight: bold;
+}
+
+.main .clients .sarah .top1 .revenue1 h3, .main .clients .mathew .top2 .revenue2 h3, .main .clients .janice .top3 .revenue3 h3 {
+    font-size: 16px;
+}
+
+.main .clients .sarah p, .main .clients .mathew p, .main .clients .janice p {
+    line-height: 1.5;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.main .clients .sarah .bottom1, .main .clients .mathew .bottom2, .main .clients .janice .bottom3 {
+    padding-top: 10px;
+}
+
+.main .clients .sarah .bottom1 button {
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4D13D1;
+    padding: 16px 70px 16px 62px;
+}
+
+.main .clients .mathew .bottom2 button {
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4D13D1;
+    padding: 16px 60px 16px 58px;
+}
+
+.main .clients .janice .bottom3 button {
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4D13D1;
+    padding: 16px 68px 16px 62px;
+}
+
+/*---------------------- GOOD PORTFOLIO END ----------------------*/
+
+/*---------------------- FOOTER ----------------------------------*/
+footer {
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+footer .section1 h1, footer .section2 h1, footer .section3 h1, footer .section4 h1, footer .section5 h1 {
+    font-size: 17px;
+}
+
+footer .section1 {
+    width: 20vw;
+}
+
+footer .section1 p {
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: gray;
+}
+
+footer .section1 h3 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+footer .section2 ul {
+    margin-top: 10px;
+}
+
+footer .section2 ul li {
+    margin-bottom: 12.5px;
+    list-style: none;
+    font-size: 15px;
+    color: gray;
+}
+footer .section3 ul {
+    margin-top: 10px;
+}
+
+footer .section3 ul li {
+    margin-bottom: 12.5px;
+    list-style: none;
+    font-size: 15px;
+    color: gray;
+}
+footer .section4 ul {
+    margin-top: 10px;
+}
+
+footer .section4 ul li {
+    margin-bottom: 12.5px;
+    list-style: none;
+    font-size: 15px;
+    color: gray;
+}
+footer .section5 ul {
+    margin-top: 10px;
+}
+
+footer .section5 ul li {
+    margin-bottom: 12.5px;
+    list-style: none;
+    font-size: 15px;
+    color: gray;
+}
+
+/*---------------------- FOOTER END ------------------------------*/
