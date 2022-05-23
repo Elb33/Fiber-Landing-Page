@@ -233,9 +233,24 @@ header .sign-up #sign-up {
 
 .main .diversify .caption2 p {
     font-size: 20px;
-    color: gray;
+    color: rgb(218, 212, 212);
     margin-top: 10px;
     line-height: 1.5;
+}
+
+.main .diversify .caption2 button {
+    background-color: white;
+    border-radius: 5px;
+    /* box-sizing: border-box;
+    border-color: red; */
+    border: none;
+    padding: 20px 28px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #4D13D1;
+    cursor: pointer;
 }
 
 .main .diversify .image2 {
